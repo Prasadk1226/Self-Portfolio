@@ -60,6 +60,16 @@ body {
     left: 120px;
     border-radius: 20px
 }
+
+@media screen and (max-width: 400px) {
+    .profile-img{
+        position: relative;
+        top: 50px;
+        left: 30px;
+        width: 80%;
+        border-radius: 20px;
+    }
+}
 @media screen and (max-width:840px) {
     .inner-container{
     filter: sepia(10%);
@@ -244,10 +254,14 @@ body {
 .inner-container5{
     text-align: center;
     background-color: aliceblue;
-    font-size: 50px;
     text-shadow: 0px 0px 5px white;
 }
 a i:hover{
     color: #FFA500; /* Warm amber tone */
     text-shadow: 0px 0px 8px rgba(255, 242, 0, 0.89); /* Soft glowing effect */
+}
+
+.car-title{
+    color: white;
+    font-weight: 100;
 }
